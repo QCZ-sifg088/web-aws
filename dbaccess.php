@@ -1,7 +1,7 @@
 <?php
-$dsn = 'mysql:host=database-qcz.crqmemsomjjy.ap-northeast-1.rds.amazonaws.com;dbname=db_qcz_01’;
-$username = 'svc_01';
-$password = 'svc1995';
+$dsn = "mysql:host=database-qcz.crqmemsomjjy.ap-northeast-1.rds.amazonaws.com;dbname=db_qcz_01";
+$username = "svc_01";
+$password = "svc1995";
 
 // try-catch
 try{
@@ -27,6 +27,7 @@ function escape1($str)
 <title>test page for database access</title>
 </head>
 <body>
+add comment
 Last Access Time<br><br>
 <?php foreach ($rec as $a):?>
     <?=escape1($a)?><br>
